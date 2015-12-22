@@ -106,6 +106,7 @@
 (require 'init-ruby-mode)
 (require 'init-rails)
 (require 'init-sql)
+(require 'init-go-mode)
 
 (require 'init-paredit)
 (require 'init-lisp)
