@@ -16,6 +16,9 @@
 ;;;errcheck integration for go-mode
 (require-package 'go-errcheck)
 
+;;;Integration of the 'gorename' tool into Emacs.
+(require-package 'go-rename)
+
 ;;;Tree style source code viewer for Go language
 ;;;go-direx
 ;;;Go Delve - Debug Go programs interactively with the GUD.
@@ -24,8 +27,6 @@
 ;;;go-playground
 ;;;Go add-ons for Projectile
 ;;;go-projectile
-;;;Integration of the 'gorename' tool into Emacs.
-;;;go-rename
 ;;;melpa *scratch* buffer for Go
 ;;;go-scratch
 ;;;melpa Yasnippets for go
