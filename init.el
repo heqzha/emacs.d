@@ -2,6 +2,14 @@
 ;;; This file bootstraps the configuration, which is divided into
 ;;; a number of other files.
 
+;;----------------------------------------------------------------------------
+;; Custom key set
+;;----------------------------------------------------------------------------
+;;M-RET enter-iedit-mode in init-iedit.el
+;;C-x M-w simpleclip-copy
+;;C-x C-w simpleclip-cut
+;;C-x C-v simpleclip-paste
+
 (let ((minver "23.3"))
   (when (version<= emacs-version "23.1")
     (error "Your Emacs is too old -- this config requires v%s or higher" minver)))
@@ -19,7 +27,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
-  '(tab-stop-list (quote (4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100 104 108 112 116 120))))
+ '(tab-stop-list (quote (4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100 104 108 112 116 120))))
 ;;----------------------------------------------------------------------------
 ;; Temporarily reduce garbage collection during startup
 ;;----------------------------------------------------------------------------
@@ -68,6 +76,8 @@
 (require 'init-uniquify)
 (require 'init-ibuffer)
 (require 'init-flycheck)
+(require 'init-clip)
+(require 'init-iedit)
 
 (require 'init-recentf)
 (require 'init-ido)
