@@ -23,7 +23,10 @@
 ;; http://www.reddit.com/r/emacs/comments/21a4p9/use_recentf_and_ido_together/cgbprem
 (add-hook 'ido-setup-hook (lambda () (define-key ido-completion-map [up] 'previous-history-element)))
 
+;; Set time delay, time unit is seconds
+(setq ido-auto-merge-delay-time 5)
 
-
+;; Disable auto merge
+;;(setq ido-auto-merge-work-directories-length -1)
 
 (provide 'init-ido)
