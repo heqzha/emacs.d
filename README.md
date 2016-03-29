@@ -110,6 +110,12 @@ versions (see "Updates" above). If you still experience problems, go ahead and
 
 <hr>
 
+Notes:
+    There is an error "Unable to find theme file for 'xxxx'" after initializaion. Run "M-x xxxx" manually to fix this this problem.
+
+-heqzha
+
+
 [![](http://api.coderwall.com/purcell/endorsecount.png)](http://coderwall.com/purcell)
 
 [![](http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png)](http://uk.linkedin.com/in/stevepurcell)
