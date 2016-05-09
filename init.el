@@ -117,6 +117,7 @@
 (require 'init-rails)
 (require 'init-sql)
 (require 'init-go-mode)
+(require 'init-vue-mode)
 
 (require 'init-paredit)
 (require 'init-lisp)
