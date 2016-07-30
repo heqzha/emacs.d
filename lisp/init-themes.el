@@ -45,7 +45,7 @@ ignored: use `custom-enabled-themes' instead."
 ;;------------------------------------------------------------------------------
 
 ;; If you don't customize it, this is the theme you get.
-(setq-default custom-enabled-themes '(color-theme-sanityinc-tomorrow-eighties))
+(setq-default custom-enabled-themes '(sanityinc-tomorrow-eighties))
 
 ;; Ensure that themes will be applied even if they have not been customized
 (defun reapply-themes ()
@@ -64,11 +64,11 @@ ignored: use `custom-enabled-themes' instead."
 (defun light ()
   "Activate a light color theme."
   (interactive)
-  (color-theme-sanityinc-tomorrow-eighties))
+  (sanityinc-tomorrow-eighties))
 
 (defun dark ()
   "Activate a dark color theme."
   (interactive)
-  (color-theme-sanityinc-tomorrow-night))
+  (sanityinc-tomorrow-night))
 
 (provide 'init-themes)
