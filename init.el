@@ -120,6 +120,7 @@
 (require 'init-go-mode)
 (require 'init-vue-mode)
 (require 'init-octave-mode)
+(require 'init-protobuf-mode)
 
 (require 'init-paredit)
 (require 'init-lisp)
@@ -137,6 +138,8 @@
 (require 'init-dash)
 (require 'init-ledger)
 (require 'init-lua-mode)
+(require-package 'ensime)
+(require 'ensime)
 
 ;; Extra packages which don't require any configuration
 (require-package 'gnuplot)
